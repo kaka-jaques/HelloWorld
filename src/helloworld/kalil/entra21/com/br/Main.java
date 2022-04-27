@@ -7,7 +7,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		//Função para exibir painel flutuante (import javax.swing.JOptionPane) - AULA 1 e 2
+		//Função para exibir painel flutuante (import javax.swing.JOptionPane & import java.util.Scanner) - AULA 1 e 2
 		JOptionPane.showMessageDialog(null, "Welcome to my first Hello World! Click OK!");
 		
 		Scanner sc = new Scanner(System.in);
@@ -18,6 +18,8 @@ public class Main {
 		String name;
 		String email;
 		String[] XP = {"IFAP - Campus Santana - 2019-2019","Leilão Fantinatto - 2019-2021","Clickway Informática - 2021-2021","Showtec Informática - 2021-atualmente"};
+		
+		
 		
 		//data entering
 		System.out.println("Informe seu nome: ");
@@ -33,6 +35,8 @@ public class Main {
 		
 		salPret = Float.parseFloat(JOptionPane.showInputDialog("Sua pretensão salarial, na humildade: "));
 		
+		
+		
 		//showing data
 		System.out.println("**CURRICULO VITAE**\n-------------------------------------");
 		System.out.println("Nome: "+name);
@@ -42,6 +46,8 @@ public class Main {
 		System.out.println("**EXPERIÊNCIAS PROFISSIONAIS**\n");
 		System.out.println("-"+XP[0]+"\n-"+XP[1]+"\n-"+XP[2]+"\n-"+XP[3]+"\n");
 		
+		
+		
 		//Variáveis FINAIS & Tipos de variáveis e seus tamanhos - AULA 2
 		System.out.println("\n****VARIABLES INFORMATION****\n");
 		System.out.println("The Value of Byte is: "+Byte.MIN_VALUE+" - "+Byte.MAX_VALUE);
@@ -49,8 +55,23 @@ public class Main {
 		System.out.println("The Value of Int is: "+Integer.MIN_VALUE+" - "+Integer.MAX_VALUE);
 		System.out.println("The Value of Double is: "+Double.MIN_VALUE+" - "+Double.MAX_VALUE);
 		System.out.println("The Value of Float is: "+Float.MIN_VALUE+" - "+Float.MAX_VALUE);
-		System.out.println("The Value of Long is: "+Long.MIN_VALUE+" - "+Long.MAX_VALUE);
+		System.out.println("The Value of Long is: "+Long.MIN_VALUE+" - "+Long.MAX_VALUE+"\n");
+		
+		
+		
+		//Operadores Aritméticos - AULA 3
+		
+		byte numA;
+		byte numB;
+		
+		System.out.println("\nDigite um número até 128");
+		numA = sc.nextByte();
+		System.out.println("Digite outro número até 128");
+		numB = sc.nextByte();
+		System.out.println("Adição = "+(numA+numB)+"\nSubtração = "+(numA-numB)+"\nDivisão = "+(numA/numB)+"\nMultiplicação = "+(numA*numB)+"\nResto = "+(numA%numB));
+		
 		
 	}
 
+	
 }
