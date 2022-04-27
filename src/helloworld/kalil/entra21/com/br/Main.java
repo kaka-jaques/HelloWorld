@@ -1,6 +1,7 @@
 package helloworld.kalil.entra21.com.br;
 
 import javax.swing.JOptionPane;
+import java.util.Scanner;
 
 public class Main {
 
@@ -9,10 +10,23 @@ public class Main {
 		//Função para exibir painel flutuante (import javax.swing.*) - AULA 1 
 		JOptionPane.showMessageDialog(null, "Welcome to my first Hello World! Click OK!");
 		
-		short[] birth = {23,8,2001};
-		String name = "Kalil J. Fakhouri";
-		String email = "kjfakhouri@gmail.com";
+		Scanner sc = new Scanner(System.in);
+		
+		short[] birth = new short [3];
+		String name;
+		String email;
 		String[] XP = {"IFAP - Campus Santana - 2019-2019","Leilão Fantinatto - 2019-2021","Clickway Informática - 2021-2021","Showtec Informática - 2021-atualmente"};
+		
+		System.out.println("Informe seu nome: ");
+		name = sc.nextLine();
+		System.out.println("Perfeito! Agora seu e-mail por favor: ");
+		email = sc.nextLine();
+		System.out.println("Ótimo! Agora o dia de seu nascimento: ");
+		birth[0] = sc.nextShort();
+		System.out.println("Agora seu mês: ");
+		birth[1] = sc.nextShort();
+		System.out.println("Ano...");
+		birth[2] = sc.nextShort();
 		
 		System.out.println("**CURRICULO VITAE**\n-------------------------------------");
 		System.out.println("Nome: "+name);
