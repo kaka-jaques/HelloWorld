@@ -7,16 +7,19 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		//Função para exibir painel flutuante (import javax.swing.*) - AULA 1 
+		//Função para exibir painel flutuante (import javax.swing.JOptionPane) - AULA 1 e 2
 		JOptionPane.showMessageDialog(null, "Welcome to my first Hello World! Click OK!");
 		
 		Scanner sc = new Scanner(System.in);
 		
+		//vars
 		short[] birth = new short [3];
+		float salPret;
 		String name;
 		String email;
 		String[] XP = {"IFAP - Campus Santana - 2019-2019","Leilão Fantinatto - 2019-2021","Clickway Informática - 2021-2021","Showtec Informática - 2021-atualmente"};
 		
+		//data entering
 		System.out.println("Informe seu nome: ");
 		name = sc.nextLine();
 		System.out.println("Perfeito! Agora seu e-mail por favor: ");
@@ -28,10 +31,14 @@ public class Main {
 		System.out.println("Ano...");
 		birth[2] = sc.nextShort();
 		
+		salPret = Float.parseFloat(JOptionPane.showInputDialog("Sua pretensão salarial, na humildade: "));
+		
+		//showing data
 		System.out.println("**CURRICULO VITAE**\n-------------------------------------");
 		System.out.println("Nome: "+name);
 		System.out.println("E-mail: "+email);
-		System.out.println("Data de Nascimento: "+birth[0]+"/"+birth[1]+"/"+birth[2]+"\n-------------------------------------");
+		System.out.println("Data de Nascimento: "+birth[0]+"/"+birth[1]+"/"+birth[2]+" ("+(2022-birth[2])+" anos)");
+		System.out.println("Pretensão Salarial: R$"+salPret);
 		System.out.println("**EXPERIÊNCIAS PROFISSIONAIS**\n");
 		System.out.println("-"+XP[0]+"\n-"+XP[1]+"\n-"+XP[2]+"\n-"+XP[3]+"\n");
 		
