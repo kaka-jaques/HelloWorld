@@ -35,7 +35,7 @@
 	1. `numero +=1`
 	1. `numero -=1`
 	1. `numero *=1`
-	1. Pré e Pós Incremento
+	1. _Pré e Pós Incremento_
 		1. `(numero++)`
 		1. `(++numero)`
 	
