@@ -16,3 +16,7 @@
     1. `JOptionPane.showMessageDialog`
 1. **Array**
 1. **Operadores Aritméticos**
+	1. `num++;`
+	1. `num+=1;
+	1. `num*=1;
+	1. 

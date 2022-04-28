@@ -32,6 +32,10 @@
 1. **Operadores de Incremento e Decremento**
 	1. `numero++`
 	1. `numero--`
-	1. `numero += numero++`
-	1. 
+	1. `numero +=1`
+	1. `numero -=1`
+	1. `numero *=1`
+	1. Pré e Pós Incremento
+		1. <h6>`(numero++)`</h6>
+		1. <h6>`(++numero)`</h6>
 	
