@@ -11,7 +11,7 @@
 1. **Linguagem Estruturada**
 1. **Funções do JRE, JDK e JVM**
 
-<h4> Aula 2 - [Variáveis, Constantes, Comentários e Entrada de Dados](https://github.com/kaka-jaques/Proway-Classes/tree/main/AULA2) </h4>
+<h4> [Aula 2 - Variáveis, Constantes, Comentários e Entrada de Dados](https://github.com/kaka-jaques/Proway-Classes/tree/main/AULA2/src/br/com/entra21/kalil) </h4>
 
 1. [**Variáveis**](https://github.com/kaka-jaques/Proway-Classes/blob/main/AULA2/src/br/com/entra21/kalil/Variaveis.java)
     1. Tipos
@@ -26,7 +26,7 @@
 	1. `Scanner`
 	1. `JOptionPane` (Entrada e Saída)
     
-<h4> Aula 3 - [Operadores Aritméticos](https://github.com/kaka-jaques/Proway-Classes/tree/main/AULA3/src/br/com/entra21/kalil) </h4>
+<h4> [Aula 3 - Operadores Aritméticos](https://github.com/kaka-jaques/Proway-Classes/tree/main/AULA3/src/br/com/entra21/kalil) </h4>
 
 1. [**Operadores**](https://github.com/kaka-jaques/Proway-Classes/blob/main/AULA3/src/br/com/entra21/kalil/OperadoresAritmeticos.java)
     1. Adição `+`
