@@ -11,7 +11,7 @@
 1. **Linguagem Estruturada**
 1. **Funções do JRE, JDK e JVM**
 
-<h4> Aula 2 - {Variáveis, Constantes, Comentários e Entrada de Dados](https://github.com/kaka-jaques/Proway-Classes/tree/main/AULA2) </h4>
+<h4> Aula 2 - [Variáveis, Constantes, Comentários e Entrada de Dados](https://github.com/kaka-jaques/Proway-Classes/tree/main/AULA2) </h4>
 
 1. [**Variáveis**](https://github.com/kaka-jaques/Proway-Classes/blob/main/AULA2/src/br/com/entra21/kalil/Variaveis.java)
     1. Tipos
